@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 15px 125px;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 850px;
+    background-color: black;
+    padding: 70px 0;
+}
+.navitem1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    gap: 20px;
+}
+.navitem2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    gap: 25px;
+    padding-top: 5px;
+}
+.buttonnav1{
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+#about{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    width: 61px;
+}
+.signupbutton{
+    background-color: white;
+    color: black;
+    font-family: ubermovetextmedium;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    
+
+}
+.naveitem20{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+@font-face {
+    font-family: ubermovebold;
+    src: url(./fonts/UberMove-Bold.woff2);
+ }
+ @font-face {
+    font-family: ubermoveregular;
+    src: url(./fonts/UberMove-Regular.woff2);
+ }
+ @font-face {
+    font-family: ubermovetextmedium;
+    src: url(./fonts/UberMoveText-Medium.woff2);
+ }
+ @font-face {
+    font-family: ubermovetextregular;
+    src: url(./fonts/UberMoveText-Regular.woff2);
+ }
+ .navitems11{
+    font-family: ubermoveregular;
+    font-size: x-large;
+ }
+ .buttonnav1{
+    font-family: ubermovetextmedium;
+    font-size: 14px;
+ }
+ .glob{
+    height: 15px;
+    width: 15px;
+    color: white;
+ }
+ .navitems23{
+    display: flex;
+    gap: 5px;
+ }
+ .mainheading{
+    color: white;
+    font-family:ubermovebold ;
+    font-size:60px;
+ }
+ .subheading{
+    color: white;
+    font-family: ubermovetextmedium;
+ }
+ .box1{
+    padding: 0px 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    border: 0;
+    border-radius: 7px;
+    height: 40px;
+    width: 400px;
+ }
+ .locationbox{
+    border: 0;
+    width: 359px;
+    font-size: medium;
+    font-weight: 100;
+    outline: none;
+ }
+.box1logo{
+    width: 6px;
+    padding-bottom:3px;
+}
+.locationlogo{
+    width: 13px;
+}
+.seeprice{
+    border: 0;
+    outline: none;
+    background-color: white;
+    padding: 13px 23px;
+    border-radius: 7px;
+    font-family: ubermovetextmedium;
+    font-size: medium;
+}
+.headerimage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.header1{
+    padding-top :120px;
+    position: relative;
+}
+.container2{
+    height: 386px;
+}
+.inercontainer{
+    width: 1280px;
+    height: 386px;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns: .8fr 8fr .8fr;
+}
+.innercontainer1{
+    padding: 64px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+
+}
+.Suggestions{
+    font-family: ubermovebold;
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+.inercontainer12{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.container3{
+    background-color: rgb(225,225,225);
+    border-radius: 8px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 212px 112px;
+}
+.conhead{
+    font-family: ubermovebold;
+}
+.conbody{
+    font-family: ubermoveregular;
+    font-size: 13px
+}
+.conbutton{
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 12px;
+    font-family: ubermovebold;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.section{
+   margin:0 108px;
+    height: 2058px;
+}
+.section1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.section20{
+    padding: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image2{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.section31{
+    padding-left: 111px;
+    padding-top: 80px;
+}
+.secfont1{
+    font-family: ubermovebold;
+    font-size: 60px;
+}
+.secfont2{
+    font-family: ubermovetextregular;
+    font-size: 15px
+}
+.getstarted{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: ubermoveregular;
+    font-size: larger;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.secfontlast{
+    font-family:ubermovetextregular ;
+}
+a{
+    color: black;
+}
+.section33{
+    padding-top: 80px;
+}
+.scan{
+    height: 406px;
+    padding: 0 172px;
+    background-color: #F6F6F6;
+}
+.scan1{
+    padding: 64px 0;
+    display: grid;
+    grid-template-rows: 44px 198px;
+    row-gap: 36px;
+    
+}
+.scanhead{
+    font-family: ubermovebold;
+    font-size: 36px;
+    font-weight: 900;
+}
+.scan3{
+    display:flex;
+    justify-content: space-between;
+
+}
+.scan4{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding:  25px 15px;
+    gap: 36px;
+}
+.arrow{
+    left: 20px;
+    width: 15px;
+    margin-right: 15px;
+}
+.scanimage{
+    object-fit: contain;
+    height: 150px;
+}
+.scantext{
+    font-family: ubermovebold;
+    font-size: 24px;
+}
+.scantext2{
+    font-family: ubermovetextregular;
+    font-size: 16px;
+}
+.arrowim{
+    display: flex;
+    
+}
+footer{
+    height: 785px;;
+    background-color: black;
+    display: flex;
+    align-items: end;
+}
+.foot{
+    color: white;
+    padding-left: 120px;
+    width: 88vw;
+}
+.listitem{
+    margin: 12px;
+    font-family: ubermovetextregular;
+    list-style: none;
+}
+
+.listitem >li{
+    margin: 20px 0;
+}
+
+
+.ullist{
+    display: flex;
+    gap: 125px;
+}
+.listitem1{
+    font-size: 16px;
+    font-weight: bolder;
+   
+}
+.spacing{
+padding-left: 10px;
+}
+.footlogo{
+    display: flex;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+.logospace{
+    padding-left:100px;
+}
+.footsec2{
+    display: flex;
+    padding-right: 60px;
+}
+.spac{
+    padding-right: 50px;
+}
+.footimg1{
+    height: 70%;
+}
+.footimg{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 50px 132px;
+}
+.footpart{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:grey;
+    height: 80px;
+}
+.end1{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    outline: none;
+    padding-right: 50px;
+}
+.footfont{
+    padding-left: 120px;
+    font-size: small
+}
+.header2{
+    padding-block: 0px;
+}
